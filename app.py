@@ -38,7 +38,7 @@ def eightball():
 @app.route(f'/v{api.version}/img/nsfw/<string:target>')
 def nsfw(target):
     possible = [
-        'anal', 'bj', 'blowjob', 'boobs', 'classic', 'cum', 'cum_jpg', 'ero', 'erofeet', 'erok', 'erokemo', 'eron', 'eroyuri', 'feet', 'feetg', 'femdom', 'futanari', 'hentai', 'holoero', 'hololewd', 'keta', 'kuni', 'les', 'lewd', 'lewdk', 'lewdkemo', 'nsfw_avatar', 'nsfw_neko_gif', 'pussy', 'pussy', 'pussy_jpg', 'pwankg', 'random_hentai_gif', 'smallboobs', 'solo', 'solog', 'tits', 'trap', 'yuri'
+        'anal', 'bj', 'blowjob', 'boobs', 'classic', 'cum', 'cum_jpg', 'ero', 'erofeet', 'erok', 'erokemo', 'eron', 'eroyuri', 'feet', 'feetg', 'femdom', 'futanari', 'hentai', 'holoero', 'hololewd', 'keta', 'kuni', 'les', 'lewd', 'lewdk', 'lewdkemo', 'nsfw_avatar', 'nsfw_neko_gif', 'pussy', 'pussy_jpg', 'pwankg', 'random_hentai_gif', 'smallboobs', 'solo', 'solog', 'tits', 'trap', 'yuri'
     ]
     return http.status({'url': nekos.img(target)}, 200)
 
