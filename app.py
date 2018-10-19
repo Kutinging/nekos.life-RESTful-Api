@@ -38,7 +38,7 @@ def eightball():
 @app.route(f'/v{api.version}/img/nsfw/<string:target>')
 def nsfw(target):
     possible = [
-        'avatar', 'baka', 'cuddle', 'feed', 'fox_girl', 'gasm', 'gecg', 'holo', 'hug', 'kemonomimi', 'kiss', 'lizard', 'meow', 'neko', 'ngif', 'pat', 'poke', 'slap', 'smug', 'tickle', 'waifu', 'wallpaper'
+        'anal', 'bj', 'blowjob', 'boobs', 'classic', 'cum', 'cum_jpg', 'ero', 'erofeet', 'erok', 'erokemo', 'eron', 'eroyuri', 'feet', 'feetg', 'femdom', 'futanari', 'hentai', 'holoero', 'hololewd', 'keta', 'kuni', 'les', 'lewd', 'lewdk', 'lewdkemo', 'nsfw_avatar', 'nsfw_neko_gif', 'pussy', 'pussy', 'pussy_jpg', 'pwankg', 'random_hentai_gif', 'smallboobs', 'solo', 'solog', 'tits', 'trap', 'yuri'
     ]
     return http.status({'url': nekos.img(target)}, 200)
 
@@ -46,7 +46,7 @@ def nsfw(target):
 @app.route(f'/v{api.version}/img/gen/<string:target>')
 def general(target):
     possible = [
-        'tickle', 'slap', 'poke', 'pat', 'neko', 'meow', 'lizard', 'kiss', 'hug', 'fox_girl', 'feed', 'cuddle', '8ball', 'ngif', 'kemonomimi', 'holo', 'wallpaper', 'gecg', 'gasm', 'avatar', 'waifu', 'baka', 'smug',
+        'avatar', 'baka', 'cuddle', 'feed', 'fox_girl', 'gasm', 'gecg', 'holo', 'hug', 'kemonomimi', 'kiss', 'lizard', 'meow', 'neko', 'ngif', 'pat', 'poke', 'slap', 'smug', 'tickle', 'waifu', 'wallpaper'
     ]
 
     print(sorted(possible))
